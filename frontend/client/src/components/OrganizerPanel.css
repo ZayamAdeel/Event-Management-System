@@ -1,0 +1,47 @@
+.organizer-panel {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--color);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .organizer-panel h1, h2 {
+    text-align: center;
+  }
+  
+  .organizer-panel input,
+  .organizer-panel textarea,
+  .organizer-panel button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .organizer-panel input[type="file"] {
+    padding: 0;
+  }
+  
+  .organizer-panel ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .organizer-panel li {
+    margin: 5px 0;
+  }
+  
+  .organizer-panel button {
+    background-color: var(--button-bg, #646cff);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .organizer-panel button:hover {
+    background-color: var(--button-hover-bg, #535bf2);
+  }
+  
